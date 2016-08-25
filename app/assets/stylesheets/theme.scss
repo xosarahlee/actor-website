@@ -1,0 +1,14 @@
+body{
+	font-family: 'Playfair Display', serif;
+}
+.container{
+	max-width: 800px;
+}
+#main {
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+.nav-link{
+	color: $main-color;
+}

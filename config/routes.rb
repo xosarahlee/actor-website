@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root "pages#home"
 
-  get "resume" => "pages#resume"
+  get "resume" => "pages#resume", as: :resume
   get "works" => "pages#works"
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
