@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   def home
   end
   def resume
-  	@listed_works = [
+  	@resume_details = [
   		{
   			title: "Short Film",
   			items: [
