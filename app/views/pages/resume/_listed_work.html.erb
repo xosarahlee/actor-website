@@ -1,0 +1,8 @@
+<div class="col-sm-6">
+	<h2 class="listed-works"><%= listed_work[:title] %></h2>
+	<ul>
+		<% listed_work[:items].each do |item| %>
+			<li><%= item %></li>
+		<% end %>
+	</ul>
+</div>
